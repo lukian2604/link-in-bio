@@ -2,7 +2,6 @@
 
 :root {
   --bg:      #06060b;
-  --bg2:     #0d0d16;
   --card:    #13131f;
   --border:  rgba(255,255,255,0.07);
   --glass:   rgba(255,255,255,0.04);
@@ -31,7 +30,6 @@ body {
   overflow-x: hidden;
 }
 
-/* ── Aurora background ── */
 .aurora {
   position: fixed;
   inset: 0;
@@ -55,7 +53,6 @@ body {
   to   { transform: translate(40px, 30px) scale(1.08); }
 }
 
-/* ── Main content ── */
 .page {
   position: relative;
   z-index: 1;
@@ -67,7 +64,6 @@ body {
   gap: 32px;
 }
 
-/* ── Profile ── */
 .profile {
   display: flex;
   flex-direction: column;
@@ -145,7 +141,6 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* ── Links ── */
 .links {
   display: flex;
   flex-direction: column;
@@ -221,7 +216,6 @@ body {
 }
 .link-card:hover .link-arrow { transform: translateX(4px); color: var(--text); }
 
-/* ── Section label ── */
 .section-label {
   font-size: 0.7rem;
   font-weight: 600;
@@ -233,7 +227,6 @@ body {
   margin-bottom: -4px;
 }
 
-/* ── Footer ── */
 .footer {
   margin-top: 8px;
   font-size: 0.72rem;
@@ -242,7 +235,6 @@ body {
   text-align: center;
 }
 
-/* ── Fade-in animation ── */
 .page > * {
   opacity: 0;
   transform: translateY(16px);
